@@ -1,0 +1,11 @@
+body {
+    margin: unset;
+    padding: unset;
+    color: white;
+    font-family: oswald;
+    font-size: 1rem;
+}
+@font-face {
+    font-family: oswald;
+    src: url("/fonts/oswald.ttf");
+}
