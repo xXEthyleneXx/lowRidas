@@ -1,6 +1,6 @@
-<!-- Landing Page / Home Page-->
-<!-- Created By Devon Edwards 9.8.2022-->
-<!-- Osbeorn Collective LLC © 2018 - 2022 -->
+<!-- Landing Page / Home Page
+Created By Devon Edwards 9.8.2022
+Osbeorn Collective LLC © 2018 - 2022 -->
 <!DOCTYPE html>
 <html>  
     <head>
@@ -17,8 +17,57 @@
         <meta name="theme-color" content="#b61c24">
     </head>
     <body>
-        <div class="header">
-
+        <div class="home_header">   
+            <div class="home_header_title">
+                <span>Above and Beyond IT Solutions LLC</span>
+            </div>
+            <div class="home_header_slogan">    
+                <span>~Going Above your expectations in service; Beyond the scope of what an IT company can do.</span>
+            </div>
+        </div>
+        <div class="home_nav">
+            <div class="home_nav_image"></div>
+            <div class="home_nav_options">
+                <div class="home_nav_option">
+                    <span>Our Mission</span>
+                </div>
+                <div class="home_nav_option">
+                    <span>Services</span>
+                </div>
+                <div class="home_nav_option">
+                    <span>Home User</span>
+                </div>
+                <div class="home_nav_option">
+                    <span>Business Solutions</span>
+                </div>
+                <div class="home_nav_option">
+                    <span>Contact</span>
+                </div>
+            </div>
+        </div>
+        <div class="home_nav_mobile">
+            <div class="home_nav_mobile_image" id="mobile_nav" onclick="show_nav()"></div>
+        </div>
+        <div class="home_nav_mobile_options" id="mobile_nav_options">
+            <div class="home_nav_mobile_option">
+                <span>Home</span>
+            </div>
+            <div class="home_nav_mobile_option">
+                <span>Our Mission</span>
+            </div>
+            <div class="home_nav_mobile_option">
+                <span>Services</span>
+            </div>
+            <div class="home_nav_mobile_option">
+                <span>Home User</span>
+            </div>
+            <div class="home_nav_mobile_option">
+                <span>Business Solutions</span>
+            </div>
+            <div class="home_nav_mobile_option">
+                <span>Contact</span>
+            </div>
         </div>
     </body>
+    <script src="js/nav.js"></script>
 </html>
