@@ -81,6 +81,10 @@ div.home_nav {
             background-color: #363636;
             text-decoration: underline;
         }
+        div.home_nav_option:focus {
+            background-color: #363636;
+            text-decoration: underline;
+        }
 /* MOBILE NAV */
 div.home_nav_mobile {
     margin: 0px 0px 10px 0px;
@@ -128,6 +132,10 @@ div.home_nav_mobile_option:hover {
     text-decoration: underline;
 }
 div.home_nav_mobile_option:active {
+    background: #363636;
+    text-decoration: underline;
+}
+div.home_nav_mobile_option:focus {
     background: #363636;
     text-decoration: underline;
 }
