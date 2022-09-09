@@ -87,4 +87,25 @@ div.info_block {
         margin: 50px;
     }
 
+div.page_description {
+    background-color: dimgray;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+    div.description_head {
+        font-weight: bold;
+        color: brown;
+        font-size: 2rem;
+    }
+    div.description_subhead {
+        color: black;
+        font-size: 1.2rem;
+    }
+    div.description_text {
+        margin: 5px;
+        padding: 5px;
+    }
+
 /* and Beyond */
