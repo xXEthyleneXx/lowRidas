@@ -23,8 +23,8 @@ div.stickybar {
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
-        height: 20px;
-        width: 140px;
+        height: 30px;
+        width: 150px;
     }
     div.sticky_logo:hover {
         cursor: pointer;
@@ -59,32 +59,71 @@ div.scrollbar {
 	float: center;
 	margin: 10px;
 	width: inherit;
-	min-height: 105px;
-	max-height: 200px;
-	overflow-x: auto;
-	overflow-y: auto;
+	height: 360px;
+	overflow-x: scroll;
 }
 
     div.scroll_image {
         float: left;
-	    width: 400px;
+    }
+    #scroll_image_left {
+        background: url("Images/net_server_1.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 360px;
+        width: 540px;
+    }
+    #scroll_image_center {
+        background: url("Images/net_server_2.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 360px;
+        width: 540px;
+    }
+    #scroll_image_right {
+        background: url("Images/net_server_3.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 360px;
+        width: 540px;
     }
 
 
 div.info_block {
-    background-color: dimgray;
+    background-color: rgb(72, 72, 72);
+    background-size: contain;
+    background-position: center;
+    padding: 100px 100px 0px 100px;
+    height: 360px;
+    margin: 100px;
+    border: groove rgb(192, 192, 192) 5px;
+    box-shadow: 10px 10px 5px black;
 }
     div.text_block {
-	    float: right;
+	    float: left;
         font-family:'Courier New', Courier, monospace;
         font-size: smaller;
         color: white;
         background-color: black;
         max-width: 250px;
+        padding: 20px;
+        margin: 20px;
+        margin-top: 75px;
     }
 
     div.info_image {
-        margin: 50px;
+        background: url("Images/admin_1.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 180px;
+        width: 270px;
+        margin: 10px;
+        padding: 20px;
+        float: left;
     }
 
 div.page_description {
