@@ -14,6 +14,9 @@ div.stickybar {
     width: 100%;
     background: white;
 	overflow: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
     div.sticky_logo {
@@ -24,7 +27,8 @@ div.stickybar {
         background-position: center;
         background-size: contain;
         height: 30px;
-        width: 150px;
+        min-width: 150px;
+        border: solid white 2px;
     }
     div.sticky_logo:hover {
         cursor: pointer;
@@ -33,26 +37,33 @@ div.stickybar {
 	    border: inset 2px;
     }
 
-    div.sticky_link {
-        text-align: center;
-	    vertical-align: middle;
-        font-family:'Courier New', Courier, monospace;
-        font-size: small;
-        background-color: white;
-        color: brown;
-        border: outset 2px;
-	    float: right;
-	    padding: 0.3%;
-	    margin-top: 2px;
+    div.linkbar {
+        background: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
     }
-    div.sticky_link:hover {
-        color: black;
-        border: inset 2px;
-        cursor: pointer;
-    }
-    div.sticky_link:active {
-        color: red;
-    }
+
+        div.sticky_link {
+            text-align: center;
+            vertical-align: middle;
+            font-family:'Courier New', Courier, monospace;
+            font-size: small;
+            background-color: white;
+            color: brown;
+            /* border: outset 2px; */
+            float: right;
+            padding: 0px 20px;
+            margin-top: 2px;
+        }
+        div.sticky_link:hover {
+            color: black;
+            /* border: inset 2px; */
+            cursor: pointer;
+        }
+        div.sticky_link:active {
+            color: red;
+        }
 
 div.scrollbar {
     background-color: black;
