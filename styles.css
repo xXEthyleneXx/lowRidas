@@ -83,7 +83,7 @@ div.scrollbar {
         background: url("Images/net_server_1.jpg");
         background-repeat: no-repeat;
         background-position: center;
-        background-size: contain;
+        background-size: cover;
         height: 216px;
         width: 540px;
     }
@@ -91,7 +91,7 @@ div.scrollbar {
         background: url("Images/net_server_2.jpg");
         background-repeat: no-repeat;
         background-position: center;
-        background-size: contain;
+        background-size: cover;
         height: 216px;
         width: 540px;
     }
@@ -99,7 +99,7 @@ div.scrollbar {
         background: url("Images/net_server_3.jpg");
         background-repeat: no-repeat;
         background-position: center;
-        background-size: contain;
+        background-size: cover;
         height: 216px;
         width: 540px;
     }
